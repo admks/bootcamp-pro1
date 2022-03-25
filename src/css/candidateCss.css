@@ -1,0 +1,21 @@
+.gridTable {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 0, 5px solid black;
+  grid-template-areas:
+    "search search search "
+    "data data data ";
+  grid-template-columns: 1fr 1fr 66px;
+}
+.gridTable > span {
+  border: 1px solid black;
+  padding: 8px 4px;
+}
+.inputText {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: search;
+}
+.candidates-table{
+    font-size: 16px;
+}

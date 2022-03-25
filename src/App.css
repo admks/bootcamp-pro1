@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.candidates,
+.aboutus,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 3rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+}
+
+.home {
+  background-image: url(./images/home.jpg);
+}
+
+.candidates {
+  background-image: url(./images/candidates.jpg);
+}
+
+
+
+.aboutus {
+  background-image: url(./images/aboutus.jpg);
+}
+
+
+.signup {
+  background-image: url(./images/signup.jpg);
+}
